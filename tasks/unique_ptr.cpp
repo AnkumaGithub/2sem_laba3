@@ -18,7 +18,7 @@ public:
 
 int main() {
     for (int i = 0; i < 10; i += 1) {
-        auto ptr = std::make_unique<int[]>(1000); // Автоматическое удаление
+        auto gg = std::make_unique<int[]>(1000); // Автоматическое удаление
     }
     // example
     File fh("test.txt");
